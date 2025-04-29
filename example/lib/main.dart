@@ -13,6 +13,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Slidable Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        textTheme: TextTheme(
+          displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+          displayMedium: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+          displaySmall: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
+        ),
       ),
       home: MyHomePage(title: 'Flutter Slidable Demo'),
     );

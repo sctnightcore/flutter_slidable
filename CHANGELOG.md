@@ -115,3 +115,7 @@
 
 ## 0.1.0
 * Initial Open Source release.
+
+## 0.6.1
+### Modified
+* Replaced deprecated API names with new API names

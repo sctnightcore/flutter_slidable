@@ -24,17 +24,13 @@ class MyDemoWidget extends StatelessWidget {
             height: 100.0,
             width: 100.0,
             color: Colors.orange,
-            child: Align(
-              alignment: FractionalOffset(
-                leftFactor / (1.0 - widthFactor),
-                topFactor / (1.0 - heightFactor),
-              ),
-              child: FractionallySizedBox(
-                widthFactor: widthFactor,
-                heightFactor: heightFactor,
-                child: Container(
-                  color: Colors.yellow,
-                ),
+            child: FractionallyAlignedSizedBox(
+              leftFactor: leftFactor,
+              topFactor: topFactor,
+              widthFactor: widthFactor,
+              heightFactor: heightFactor,
+              child: Container(
+                color: Colors.yellow,
               ),
             ),
           ),
